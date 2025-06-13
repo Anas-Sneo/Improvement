@@ -1,0 +1,36 @@
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+
+}
+
+
+Class Declaration:
+public class HelloWorld {
+
+Every Java program starts with a class. The class name must match the file name (HelloWorld.java).
+Here, HelloWorld is the class name and public is an access modifier.
+
+main() method:
+public static void main(String[] args) {
+This is the entry point of every Java application. When you run the program, this method is executed first.
+
+public: anyone can access it
+
+static: you don’t need to create an object to run it
+
+void: it doesn’t return anything
+
+main: the method name
+
+String[] args: command-line arguments (optional input from the user)
+
+STATEMENTS:
+System.out.println("Hello, world!");
+This line prints output to the console. System.out is a built-in object and println() is a method to print and go to the next line.
+
+braces:
+Braces define the scope or block of code — like which statements belong to which class or method.
+
