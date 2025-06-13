@@ -24,3 +24,20 @@ JIT helps speed up code that’s run multiple times (like loops).
 
 
 
+
+ADDITIONAL CONTENT:
+JDK, JRE, JVM Overview:
+•	The JDK (Java Development Kit) includes tools and libraries for writing Java code, like the debugger and the `javac` compiler.
+•	JRE (Java Runtime Environment) provides the environment to run Java programs and includes the JVM (Java Virtual Machine).
+•	The JVM executes Java bytecode, converting it to machine specific code.
+Execution Process:
+•	When a Java file (`.java` file) is written and compiled, `javac` compiles it into bytecode (stored in a `.class` file).
+•	Bytecode is platform independent, allowing it to be executed on any system with a JVM (e.g., Windows, Mac).
+Role of JVM:
+•	The JVM interprets the bytecode and converts it into platform dependent machine code, which varies by OS.
+•	The JVM runs the bytecode line by line and produces the final output in machine code (binary format).
+Tools Explanation:
+•	`javac` is the compiler in JDK responsible for converting `.java` files to bytecode.
+•	`java` is the command to run compiled Java programs via the JVM, located in the JDK's `bin` directory.
+
+
